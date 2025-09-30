@@ -1,4 +1,4 @@
-import { Book, AlertTriangle, FileCode, Terminal, Shield, Wifi, Globe, Lock } from 'lucide-react';
+import { Book, AlertTriangle, FileCode, Terminal, Shield, Wifi, Globe, Lock ,Ghost} from 'lucide-react';
 
 export default function DocsPage() {
   return (
@@ -23,12 +23,12 @@ export default function DocsPage() {
               <h2 className="text-2xl font-bold text-red-400 font-mono">MUHIM ESLATMA</h2>
             </div>
             <p className="text-gray-300 leading-relaxed mb-4">
-              Bu vositalar penetratsion test va xavfsizlik auditlari uchun mo'ljallangan.
-              Ularni faqat <span className="text-green-400 font-bold">ruxsat olingan tizimlarda</span> va
-              yuridik chegaralar ichida ishlating.
+             Hacktoolni ishlatayotgan ekansan esingdan chiqmasin bu toliq buzish uchun moʻljallangan 
+              <span className="text-green-400 font-bold"> The Butcher</span> hacktool emas bu sensan
+              zaifliklarni aniqlaysan tizimlarni buzib kirasan extiyot bo'l iz  qoldirma 
             </p>
             <p className="text-red-400 font-bold">
-              Noloyiq yoki ruxsatsiz foydalanish — noqonuniy!
+              hammasini so'yib tashla
             </p>
           </section>
 
@@ -45,27 +45,31 @@ export default function DocsPage() {
                 </li>
                 <li className="flex items-start space-x-3">
                   <Globe className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>Web pentest: subdomain enumeration, port scanning, vulnerability scanning</span>
+                  <span>Web Hacking: web sayt va va web dasturlardan malumot yeg'adi zaifliklarni ko'rsatadi </span>
+                </li>
+                 <li className="flex items-start space-x-3">
+                  <Wifi className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                  <span>Wifi Hacking — tarmoqlarni buzib kirish uchun xizmat</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <FileCode className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>WebCopier — saytni wget bilan klonlash</span>
+                  <span>WebCopier — Web Saytlarni frontend qismini nusxalaydi</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <Terminal className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>BITF — ffuf asosida fuzzing (multi-FUZZ qo'llab-quvvatlanadi)</span>
+                  <span>Spidey Websint — Web saytlardan agressiv malumot yeg'adi</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <Shield className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>MITM / BITM — bettercap bilan ARP spoofing va DNS spoofing</span>
+                  <span>BITM — Butcher in the middle hujumi tarmoqlardan malumot kuzatish va almashtirishga imkon beradi</span>
                 </li>
                 <li className="flex items-start space-x-3">
                   <Lock className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>Physical — fayllarni ko'rish/ko'chirish va malware tahlili</span>
+                  <span>Physical — fizik insonlarni malumotlarini og'irlaydi</span>
                 </li>
                 <li className="flex items-start space-x-3">
-                  <Wifi className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
-                  <span>R.I.P.B — Tor/torsocks bilan anonim skanerlash</span>
+                  <Ghost className="w-5 h-5 text-green-400 mt-1 flex-shrink-0" />
+                  <span>R.I.P.B — sening hafsizligingni yaxshilaydi server loglarida iz qoldirmasligingni taminlaydi</span>
                 </li>
               </ul>
             </div>

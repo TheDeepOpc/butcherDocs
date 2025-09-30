@@ -1,38 +1,39 @@
 import { Terminal, Shield, Wifi, Globe, Lock, Code } from 'lucide-react';
 
 export default function HomePage() {
-  const features = [
-    {
-      icon: Globe,
-      title: 'Web Penetration Testing',
-      description: 'Subdomain enumeration, port scanning, vulnerability detection with Nikto, Nmap, WPScan',
-    },
-    {
-      icon: Wifi,
-      title: 'Wireless Attacks',
-      description: 'WiFi penetration testing with Fluxion integration and aircrack-ng suite',
-    },
-    {
-      icon: Shield,
-      title: 'MITM Operations',
-      description: 'ARP spoofing, DNS hijacking with bettercap for network interception',
-    },
-    {
-      icon: Lock,
-      title: 'Physical Hacking',
-      description: 'File manipulation, system reconnaissance, and physical security testing',
-    },
-    {
-      icon: Terminal,
-      title: 'Web Fuzzing',
-      description: 'Directory and parameter discovery using FFUF with multi-FUZZ support',
-    },
-    {
-      icon: Code,
-      title: 'Anonymous Testing',
-      description: 'R.I.P.B module for anonymous scanning through Tor/torsocks network',
-    },
-  ];
+ const features = [
+  {
+    icon: Globe,
+    title: 'Web hacking ',
+    description: 'Subdomenlarni aniqlash, portlarni skanerlash, zaifliklarni aniqlash',
+  },
+  {
+    icon: Wifi,
+    title: 'Simsiz hujumlar',
+    description: 'Tarmoqlarga hujum qilish imkoniyatlari',
+  },
+  {
+    icon: Shield,
+    title: 'B.I.T.M',
+    description: 'Tarmoqni ushlash uchun bettercap yordamida ARP spoofing va DNS spoofing qilish ',
+  },
+  {
+    icon: Lock,
+    title: 'fizik hujumlar',
+    description: 'Fizik zararli dasturlar orqali maqsadli hujumlar qilish',
+  },
+  {
+    icon: Terminal,
+    title: 'Veb fuzing',
+    description: 'tarmoq havolalarini fuzz qilish',
+  },
+  {
+    icon: Code,
+    title: 'R.I.P.B',
+    description: 'Server Loglariga sening haqiqiy manzilingni yozmaydi orniga soxta ip manzil jonatadi',
+  },
+];
+
 
   return (
     <div className="min-h-screen bg-black text-gray-100">
@@ -43,7 +44,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20">
             <div className="inline-block mb-6 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-full">
-              <span className="text-green-400 font-mono text-sm">v1.7 - Hacktool</span>
+              <span className="text-green-400 font-mono text-sm">v1.7.1</span>
             </div>
             <h1 className="text-5xl sm:text-7xl font-bold mb-6 font-mono">
               <span className="text-green-400">BUTCHER <p style={{fontSize: '17px'}} >Hacktool by TheDeepOpc</p> </span>

@@ -13,7 +13,7 @@ export default function Navigation({ currentPage, onNavigate }) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <Terminal className="w-8 h-8 text-green-400" />
-            <span className="text-xl font-bold text-green-400 font-mono">BUTCHER TOOLKIT</span>
+            <span className="text-xl font-bold text-green-400 font-mono">The Butcher</span>
           </div>
           <div className="flex space-x-1">
             {navItems.map((item) => {
