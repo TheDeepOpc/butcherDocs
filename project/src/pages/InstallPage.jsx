@@ -28,7 +28,7 @@ export default function InstallPage() {
     },
     {
       title: "4. Setup ni ishga tushirish",
-      command: "sudo ./setup.sh",
+      command: "./setup.sh",
       description: "Asosiy dasturni ishga tushiring"
     }
   ];
